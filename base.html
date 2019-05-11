@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+
+
+<html>
+
+
+
+  <head>
+
+
+  </head>
+
+
+
+  <body>
+<center>
+
+
+    <div class="container">
+
+
+
+      <nav class="header">
+
+        <a href="/" class="left spacing">Home</a>
+
+        <a href="/blog" class="left spacing">All Posts</a>
+
+        <a href="/new_post"><i class="fa fa-pencil" aria-hidden="true"></i>New Post</a>
+
+        <a href="/logout" class="right"><i class="fa fa-sign-out"></i> Logout</a>
+
+        <a href="/login" class="right spacing"><i class="fa fa-sign-in"></i> Login</a>
+
+
+
+      </nav>
+
+      {% block content %}
+
+      {% endblock %}
+
+    </div>
+
+
+</center>
+  </body>
+
+
+
+</html>
